@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const jwt = require('jsonwebtoken')
 
-const privateKey = fs.readFileSync(path.resolve(__dirname, '../../secret.key.pem'))
+const privateKey = fs.readFileSync(path.resolve(__dirname, '../../secret.key.pem')) || "123456789"
 
 class Token{
   static getToken(user){
