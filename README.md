@@ -3,10 +3,12 @@
 This project creates a CRUD for Users and his addresses 
 
 ## Run migrations 
-```yarn sequelize db:migrations```
+
+```yarn sequelize db:migrate```
 
 ## Undo run migrations 
-```yarn sequelize db:migrations:undo:all```
+
+```yarn sequelize db:migrate:undo:all```
 
 ## Instalation 
 
